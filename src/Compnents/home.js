@@ -1,9 +1,14 @@
 import React from "react";
-
+import Map from "./Map";
 export default function home() {
+  const cars = ["Ford", "BMW", "Audi", "dsd", "ewrsdf"];
+
   return (
     <div>
       <h1>this is home page</h1>
+      <p>--------this is rendering list using MAp------</p>
+      <Map cars={cars} />
+      <h5>------------------------</h5>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quae
         ullam impedit quia assumenda nam deserunt eligendi aperiam perspiciatis
